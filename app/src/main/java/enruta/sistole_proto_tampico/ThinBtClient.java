@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.util.UUID;
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
  
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;

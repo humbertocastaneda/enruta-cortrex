@@ -2,7 +2,7 @@ package enruta.sistole_proto_tampico;
 
 import java.util.Hashtable;
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;

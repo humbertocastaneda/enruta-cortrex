@@ -2,7 +2,7 @@ package enruta.sistole_proto_tampico;
 
 import java.util.HashMap;
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 
 import android.content.Context;
 import android.media.AudioManager;

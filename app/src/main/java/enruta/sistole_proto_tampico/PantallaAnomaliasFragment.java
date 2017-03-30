@@ -2,7 +2,7 @@ package enruta.sistole_proto_tampico;
 
 import java.util.Vector;
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -42,7 +42,6 @@ public class PantallaAnomaliasFragment extends Fragment {
 	TextView tv_mensaje;
 	PantallaAnomaliasGridAdapter adapter;
 	RelativeLayout rl_busquedaManual;
-	String tipoAnomalia="";
 	int tipo;
 	
 	ImageButton b_clearText;
@@ -93,14 +92,6 @@ public class PantallaAnomaliasFragment extends Fragment {
 		// }
 
 		tipo = bu_params.getInt("tipo");
-		tipoAnomalia=pa_papa.globales.tll.getLecturaActual().is_tipoDeOrden;
-		
-		if (tipoAnomalia.equals("TO005")){
-			tipoAnomalia="I";
-		}
-		else{
-			tipoAnomalia="M";
-		}
 
 		li_anomalia.setText(bu_params.getString("anomalia"));
 
@@ -594,7 +585,7 @@ public class PantallaAnomaliasFragment extends Fragment {
 					//ls_filtro= pa_papa.getFiltro();
 
 					c = db.rawQuery(
-							"Select rowid _id, "+pa_papa.anomaliaTraducida+" anom , desc desc from anomalia where subanomalia<>'S' and subanomalia<>'A' and activa='A' and tipo='"+tipoAnomalia+"' "
+							"Select rowid _id, "+pa_papa.anomaliaTraducida+" anom , desc desc from anomalia where subanomalia<>'S' and subanomalia<>'A' and activa='A' "
 									+ ls_filtro, null);
 					c.moveToFirst();
 
@@ -661,7 +652,7 @@ public class PantallaAnomaliasFragment extends Fragment {
 					lv_lista.setVisibility(View.GONE);
 					rl_busquedaManual.setVisibility(View.GONE);
 					
-					setArrayOfAnomalias("Select anoma."+pa_papa.anomaliaTraducida+" anom from Anomalia anoma, usoAnomalias uso  where anoma."+pa_papa.anomaliaTraducida+"=uso.anomalia and subanomalia<>'S' and subanomalia<>'A' and activa='A' and fecha<>'' "+ls_filtro+" and tipo='"+tipoAnomalia+"' order by cast (fecha as Integer) desc limit 12");
+					setArrayOfAnomalias("Select anoma."+pa_papa.anomaliaTraducida+" anom from Anomalia anoma, usoAnomalias uso  where anoma."+pa_papa.anomaliaTraducida+"=uso.anomalia and subanomalia<>'S' and subanomalia<>'A' and activa='A' and fecha<>'' "+ls_filtro+" order by cast (fecha as Integer) desc limit 12");
 					//setArrayOfAnomalias("Select anoma."+pa_papa.anomaliaTraducida+" anom from Anomalia anoma LEFT JOIN usoAnomalias uso  on  anoma."+pa_papa.anomaliaTraducida+"=uso.anomalia and subanomalia<>'S' where subanomalia<>'A' and activa='A' "+ls_filtro+" order by cast (fecha as Integer) desc limit 12");
 					
 					break;
@@ -669,7 +660,7 @@ public class PantallaAnomaliasFragment extends Fragment {
 				case PantallaAnomaliasTabsPagerAdapter.MAS_USADAS:
 					lv_lista.setVisibility(View.GONE);
 					rl_busquedaManual.setVisibility(View.GONE);
-					setArrayOfAnomalias("Select  anoma."+pa_papa.anomaliaTraducida+" anom from Anomalia anoma, usoAnomalias uso where anoma."+pa_papa.anomaliaTraducida+"=uso.anomalia and subanomalia<>'S' and subanomalia<>'A' and activa='A' and veces<>0 "+ls_filtro+" and tipo='"+tipoAnomalia+"' order by veces desc, cast (fecha as Integer) desc limit 12");
+					setArrayOfAnomalias("Select  anoma."+pa_papa.anomaliaTraducida+" anom from Anomalia anoma, usoAnomalias uso where anoma."+pa_papa.anomaliaTraducida+"=uso.anomalia and subanomalia<>'S' and subanomalia<>'A' and activa='A' and veces<>0 "+ls_filtro+" order by veces desc, cast (fecha as Integer) desc limit 12");
 					//setArrayOfAnomalias("Select  anoma."+pa_papa.anomaliaTraducida+" anom from Anomalia anoma LEFT JOIN usoAnomalias uso on anoma."+pa_papa.anomaliaTraducida+"=uso.anomalia and subanomalia<>'S'  where subanomalia<>'A' and activa='A' "+ls_filtro+" order by veces desc, cast (fecha as Integer) desc limit 12");
 					break;
 				}

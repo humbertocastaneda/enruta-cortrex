@@ -3,7 +3,7 @@ package enruta.sistole_proto_tampico;
 import java.util.Timer;
 import java.util.Vector;
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 
 import android.app.Application;
 import android.content.Context;
@@ -23,18 +23,14 @@ public class Globales extends Application {
 	
 	final static int CLAVE_COMAPA_ZC=29089051;
 	final static int CLAVE_ENRUTA=19891231;
-	final static int CLAVE_PRUEBAS2=20141209;
-	final static int CLAVE_PRUEBAS3=20141217;
-	final static int CLAVE_MEXICANA=20150223;
-	final static int CLAVE_PREPAGO=20150928;
 	int ii_claveIngresada=0;
 	boolean debug=false;
 	
 	
-//	String usuarioBD="u1003479_hcasta";
-//	String serverBD= "db1003479_reportes";
-	String usuarioBD="u1003479_pruebas";
-	String serverBD= "db1003479_prueba";
+	String usuarioBD="u1003479_hcasta";
+	String serverBD= "db1003479_reportes";
+//	String usuarioBD="u1003479_pruebas";
+//	String serverBD= "db1003479_prueba";
 	String passwordBD= "Sotixe_69";
 	
 

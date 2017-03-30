@@ -1,6 +1,5 @@
 package enruta.sistole_proto_tampico;
 
-import enruta.cortrex_mexicana.R;
 import java.util.Vector;
 
 public class MensajeEspecial {

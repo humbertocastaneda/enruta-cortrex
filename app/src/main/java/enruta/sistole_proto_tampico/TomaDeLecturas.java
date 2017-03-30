@@ -4,7 +4,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.util.Vector;
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -985,8 +985,6 @@ public class TomaDeLecturas extends TomaDeLecturasPadre implements
 				anom.putExtra("secuencial", globales.il_lect_act);
 				anom.putExtra("lectura", globales.is_lectura);
 				anom.putExtra("anomalia", globales.tll.getLecturaActual().getAnomaliasCapturadas());
-				
-				anom.putExtra("tipoAnomalia", globales.tll.getLecturaActual().is_tipoDeOrden);
 
 				startActivityForResult(anom, ANOMALIA);
 				// vengoDeAnomalias = true;

@@ -1,7 +1,7 @@
 package enruta.sistole_proto_tampico;
 
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.res.Resources;

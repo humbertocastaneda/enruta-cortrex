@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\correccion_pattern.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable\\correccion_pattern.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\buscar_pattern.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable\\buscar_pattern.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_text_holo_light.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable\\edit_text_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mover_pattern.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable\\mover_pattern.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\clear_button_behavior.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable\\clear_button_behavior.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bordes_cuadricula.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable\\bordes_cuadricula.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sistole_button.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable\\sistole_button.xml"
+    }
+]

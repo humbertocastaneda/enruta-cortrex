@@ -3,7 +3,7 @@ package enruta.sistole_proto_tampico;
 import java.util.ArrayList;
 import java.util.List;
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 
 import android.app.Activity;
 import android.content.Intent;

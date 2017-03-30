@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 
 
 import android.os.Bundle;
@@ -273,6 +273,7 @@ public class Configuracion extends Activity {
 		    	 	InputFilter[] FilterArray = new InputFilter[1];
 		    	 	FilterArray[0] = new InputFilter.LengthFilter(entry.maxLenght);
 		    	 	et_view.setFilters(FilterArray);
+
 		    	 	
 		    	 	switch (ii_rol){
 		    		case CPL.LECTURISTA:
@@ -280,7 +281,6 @@ public class Configuracion extends Activity {
 		    				et_view.setEnabled(true);
 		    			else
 		    				et_view.setEnabled(false);
-		    			
 		    			break;
 		    		}
 		    		
@@ -347,7 +347,6 @@ public class Configuracion extends Activity {
 	    			spinner.setSelection(tmp_text==null?((XmlSpinner)tmp).selected:Integer.parseInt(tmp_text));
 	    			switch (ii_rol){
 		    		case CPL.LECTURISTA:
-		    			//spinner.setEnabled(false);
 		    			if (tmp.view_name.equals("tam_fotos") )
 		    				spinner.setEnabled(true);
 		    			else

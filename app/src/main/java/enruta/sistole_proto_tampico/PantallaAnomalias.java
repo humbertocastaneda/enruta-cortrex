@@ -1,5 +1,5 @@
 package enruta.sistole_proto_tampico;
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 import android.annotation.SuppressLint;
 import android.app.ActionBar.Tab;
 import android.app.ActionBar;

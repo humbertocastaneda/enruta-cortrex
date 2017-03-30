@@ -16,8 +16,14 @@ The following files were *not* copied into the new Gradle project; you
 should evaluate whether these are still needed in your project and if
 so manually move them:
 
-* CORTREX_MEXICANA.apk
+* CLIIN.apk
+* Cortrex .apk
+* Cortrex 1-12B.apk
+* Cortrex 3.apk
+* Cortrex 4.apk
 * Keystroke
+* SISTOLE_PROTO_TAMPICO.apk
+* SISTOLE_PROTO_TAMPICO_prueba.apk
 * TomaDeLecturasColombia.java
 * capturas\
 * capturas\Captura.PNG

@@ -6,7 +6,7 @@ android {
     compileOptions.encoding = "ISO-8859-1"
 
     defaultConfig {
-        applicationId "enruta.cortrex_mexicana"
+        applicationId "enruta.sistole_proto_tampico"
         minSdkVersion 15
         targetSdkVersion 15
     }

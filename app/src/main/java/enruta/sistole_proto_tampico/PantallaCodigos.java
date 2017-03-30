@@ -15,7 +15,6 @@ import android.widget.RelativeLayout;
 import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 import android.widget.AdapterView.OnItemClickListener;
-import enruta.cortrex_mexicana.R;
 
 public class PantallaCodigos extends Activity {
 

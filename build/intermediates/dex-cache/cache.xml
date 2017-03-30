@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="165a887258e67b58234e4b90b320ec8fd594b93a">
+        <dex dex="C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_7209982c80fc2a9ba948b5363ab75a2ba9d0979c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3fe98f887031890a3cb72fd2a8642ed975b1a6a">
+        <dex dex="C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3715a02c5f554f469c264267cc3a887fa9849d08\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\18.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dafab6ae358e6c801605d50ff1fa761e77200c1a">
+        <dex dex="C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-gridlayout-v7-18.0.0_d14e1ea72ebbd5ab0891b5a906714e3b7d96f7dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Humberto\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_ceb22340b096a970beddf6d885d5796c4c2c3fba\classes.dex" />
+    </item>
+
+</items>

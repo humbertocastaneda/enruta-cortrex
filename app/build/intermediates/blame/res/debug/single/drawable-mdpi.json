@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_correccion.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_action_correccion.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\cpl_bkg.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\cpl_bkg.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_lecturas.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_lecturas.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_salir_correccion.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_action_salir_correccion.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\textfield_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\textfield_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_deshabilita_impr.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_deshabilita_impr.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\mover_bck.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\mover_bck.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\logo_disnorte.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\logo_disnorte.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\textfield_default_holo_light.9.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\textfield_default_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\correccion_bck.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\correccion_bck.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_cambiausr.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_action_cambiausr.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\text_field_clear_btn_gray_selected.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\text_field_clear_btn_gray_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_importar.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_action_importar.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_ascendente.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_action_ascendente.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_descendente.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_action_descendente.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\textfield_disabled_focused_holo_light.9.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\textfield_disabled_focused_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_con_lectura_unselected.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_con_lectura_unselected.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\text_field_clear_btn_gray.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\text_field_clear_btn_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_configuracion.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_action_configuracion.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\enruta.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\enruta.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\logo.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\next_lectura.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\next_lectura.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_nuevo.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_action_nuevo.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_todas_las_lecturas_checked.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_todas_las_lecturas_checked.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\textfield_activated_holo_light.9.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\textfield_activated_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_sin_lectura_unselected.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_sin_lectura_unselected.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\buscar_bck.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\buscar_bck.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_auto.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_auto.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_todas_las_lecturas_unchecked.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_todas_las_lecturas_unchecked.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_habilita_impresion.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_habilita_impresion.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_exportar.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_action_exportar.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\textfield_focused_holo_light.9.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\textfield_focused_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_borrartexto.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_borrartexto.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_guardar.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_action_guardar.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_con_lectura_selected.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_con_lectura_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\prev_lectura.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\prev_lectura.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_sin_lectura_selected.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_sin_lectura_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_sin_flash.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_sin_flash.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_importar.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_importar.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\logo_comapa.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\logo_comapa.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\logo_electricaribe.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\logo_electricaribe.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_borrar.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_action_borrar.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_con_flash.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\ic_con_flash.png"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\gps_satelite.png",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\drawable-mdpi\\gps_satelite.png"
+    }
+]

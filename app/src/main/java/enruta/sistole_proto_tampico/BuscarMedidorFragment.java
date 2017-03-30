@@ -2,7 +2,7 @@ package enruta.sistole_proto_tampico;
 
 import java.util.Vector;
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 import android.os.Bundle;
 import android.os.Handler;
 import android.annotation.SuppressLint;

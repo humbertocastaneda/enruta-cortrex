@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.util.Vector;
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -50,6 +50,13 @@ public class Resumen extends Fragment {
 	    	
 	    	
 	    	String ls_resumen;
+	    	if (ma_papa==null){
+	    		ma_papa=(Main) getActivity();
+	    		if (ma_papa==null)
+	    			return;
+	    	}
+	    	
+	    	
 	    	if (ma_papa.globales.tdlg==null)
 				return;
 		 

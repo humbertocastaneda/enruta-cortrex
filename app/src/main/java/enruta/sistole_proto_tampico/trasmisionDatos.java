@@ -7,7 +7,7 @@ import java.util.Date;
 import java.util.Hashtable;
 import java.util.Vector;
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -414,7 +414,7 @@ public class trasmisionDatos extends TransmisionesPadre {
 
 						openDatabase();
 						c = db.rawQuery(
-								"select secuencial, nombre, foto , rowid from fotos where envio=1", null);
+								"select nombre, foto , rowid from fotos where envio=1", null);
 
 						cantidad = c.getCount();
 
@@ -433,10 +433,8 @@ public class trasmisionDatos extends TransmisionesPadre {
 
 						for (int i = 0; i < c.getCount(); i++) {
 							context.stop();
-							
-							String fecha= c.getString(c.getColumnIndex("nombre")).substring(c.getString(c.getColumnIndex("nombre")).length() - 18,c.getString(c.getColumnIndex("nombre")).length() - 10 );
 
-							serial.open(ls_servidor, ls_capertaFotos+ fecha+"/", "",
+							serial.open(ls_servidor, ls_capertaFotos, "",
 									Serializacion.ESCRITURA, 0, 0);
 
 							// ls_cadena=generaCadenaAEnviar(c);
@@ -857,10 +855,16 @@ public class trasmisionDatos extends TransmisionesPadre {
 		}
 	}
 
-	public void tope(int avance) {
-		if (pb_progress.isIndeterminate())
-			pb_progress.setIndeterminate(false);
-		pb_progress.setMax(avance);
+	public void tope(final int avance) {
+		mHandler.post(new Runnable() {
+			@Override
+			public void run() {
+				if (pb_progress.isIndeterminate())
+					pb_progress.setIndeterminate(false);
+				pb_progress.setMax(avance);
+			}
+		});
+
 	}
 
 	public void setAcabado() {

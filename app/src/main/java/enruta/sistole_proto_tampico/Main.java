@@ -16,7 +16,7 @@ import java.util.TimerTask;
 import java.util.UUID;
 import java.util.Vector;
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 
 
 import android.annotation.SuppressLint;
@@ -174,31 +174,8 @@ public class Main extends FragmentActivity implements TabListener {
 		esSuperUsuario=bu_params.getBoolean("esSuperUsuario");
 		if(CPL.LECTURISTA==ii_rol){
 			is_nombre_Lect=bu_params.getString("nombre");
-			
-		String ruta= getStringValue("ruta_descarga");
-//		if (ruta.endsWith("Pruebas")){
-////			globales.usuarioBD="u1003479_pruebas";
-////			globales.serverBD= "db1003479_prueba";
-//			globales.usuarioBD="u1003479_pruebc3";
-//			globales.serverBD= "db1003479_cortexPrueba3";
-//			globales.passwordBD= "Sotixe_69";
-//		}
-//		else if (ruta.endsWith("Pruebas2")){
-//			globales.usuarioBD="u1003479_pruebc2";
-//			globales.serverBD= "db1003479_cortexprueba2";
-//			globales.passwordBD= "Sotixe_69";
-//		}
-//		else if (ruta.endsWith("Pruebas3")){
-//			globales.usuarioBD="u1003479_pruebc3";
-//			globales.serverBD= "db1003479_cortexPrueba3";
-//			globales.passwordBD= "Sotixe_69";
-//		}
-//		else{
-			globales.usuarioBD="u1006844_corMexi";
-			globales.serverBD= "db1006844_cortrexMexicana";
-			globales.passwordBD= "Sotixe_69";
-//		}
 		}
+		
 
 		
 		//actualizaResumen();
@@ -1827,58 +1804,50 @@ protected void onResume(){
 
 private void estableceVariablesDeClave() {
 	// TODO Auto-generated method stub
-	
-	switch(globales.ii_claveIngresada){
-	case Globales.CLAVE_COMAPA_ZC:
+	if (globales.ii_claveIngresada==Globales.CLAVE_COMAPA_ZC){ //Si la clave que se ingresó en un principio es la correcta, le ponemos los parametros de comapa
+		
 		sobreEscribirCampos("server_gprs", globales.defaultServidorGPRS);
 		sobreEscribirCampos("ruta_descarga", globales.defaultRutaDescarga);
-		reiniciarAplicacion();
-		break;
-	case Globales.CLAVE_ENRUTA:
+		
+		AlertDialog.Builder builder = new AlertDialog.Builder(this).setTitle("CORTREX");
+		builder.setMessage("La aplicacion se reiniciara.")
+		       .setCancelable(false)
+		       .setNegativeButton(R.string.aceptar, new DialogInterface.OnClickListener() {
+		           public void onClick(DialogInterface dialog, int id){
+		        	   Intent i = getBaseContext().getPackageManager()
+		      	             .getLaunchIntentForPackage( getBaseContext().getPackageName() );
+		      		i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+		      		startActivity(i);
+		      		System.exit(0);
+		      		return;
+		           }
+		       });
+		
+		AlertDialog alert = builder.create();
+		alert.show();
+}
+	else if (globales.ii_claveIngresada==Globales.CLAVE_ENRUTA){ //Si la clave que se ingresó en un principio es la correcta, le ponemos los parametros de comapa
+		
 		sobreEscribirCampos("server_gprs", globales.defaultServidorGPRS);
 		sobreEscribirCampos("ruta_descarga", "C:\\CortrexPruebas");
-		reiniciarAplicacion();
-		break;
-	case  Globales.CLAVE_PRUEBAS2:
-		sobreEscribirCampos("server_gprs", globales.defaultServidorGPRS);
-		sobreEscribirCampos("ruta_descarga", "C:\\CortrexPruebas2");
-		reiniciarAplicacion();
-		break;
-	case  Globales.CLAVE_PRUEBAS3:
-		sobreEscribirCampos("server_gprs", globales.defaultServidorGPRS);
-		sobreEscribirCampos("ruta_descarga", "C:\\CortrexPruebas3");
-	case  Globales.CLAVE_MEXICANA:
-	case Globales.CLAVE_PREPAGO:
-		sobreEscribirCampos("server_gprs", globales.defaultServidorGPRS);
-		sobreEscribirCampos("ruta_descarga", "C:\\");
 		
-		reiniciarAplicacion();
+		AlertDialog.Builder builder = new AlertDialog.Builder(this).setTitle("CORTREX");
+		builder.setMessage("La aplicacion se reiniciara.")
+		       .setCancelable(false)
+		       .setNegativeButton(R.string.aceptar, new DialogInterface.OnClickListener() {
+		           public void onClick(DialogInterface dialog, int id){
+		        	   Intent i = getBaseContext().getPackageManager()
+		      	             .getLaunchIntentForPackage( getBaseContext().getPackageName() );
+		      		i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+		      		startActivity(i);
+		      		System.exit(0);
+		      		return;
+		           }
+		       });
 		
-		
-		break;
-	}
-	
-
+		AlertDialog alert = builder.create();
+		alert.show();
 }
-
-private void reiniciarAplicacion() {
-	// TODO Auto-generated method stub
-	AlertDialog.Builder builder = new AlertDialog.Builder(this).setTitle("CORTREX");
-	builder.setMessage("La aplicacion se reiniciara.")
-	       .setCancelable(false)
-	       .setNegativeButton(R.string.aceptar, new DialogInterface.OnClickListener() {
-	           public void onClick(DialogInterface dialog, int id){
-	        	   Intent i = getBaseContext().getPackageManager()
-	      	             .getLaunchIntentForPackage( getBaseContext().getPackageName() );
-	      		i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-	      		startActivity(i);
-	      		System.exit(0);
-	      		return;
-	           }
-	       });
-	
-	AlertDialog alert = builder.create();
-	alert.show();
 }
 
 protected void asignarSecuenciasReales() {
@@ -2309,23 +2278,6 @@ public void agregaAlLog(String informacion){
 	 agregaAlLog(obtieneFecha("h:i:s"),  informacion);
 }
 
-public String getStringValue(String key) {
-	String value="";
-	openDatabase();
-
-	Cursor c = db.rawQuery("Select * from config where key='" + key + "'",
-			null);
-
-	if (c.getCount() > 0) {
-		c.moveToFirst();
-		value = c.getString(c.getColumnIndex("value"));
-	}
-	c.close();
-
-	closeDatabase();
-
-	return value;
-}
 
 }
 

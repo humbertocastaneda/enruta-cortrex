@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\p_login.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\p_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_tabs.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\main_tabs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wait_messagebox.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\wait_messagebox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\buscar_medidor_fragment.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\buscar_medidor_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\configuracion.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\configuracion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\teclado_ext.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\teclado_ext.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\informacion.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\informacion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cpl.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\cpl.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\enproceso.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\enproceso.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preview_buscar_medidor.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\preview_buscar_medidor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layoutgenerico.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\layoutgenerico.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\no_registrados.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\no_registrados.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\entrada.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\entrada.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lote_a_cargar.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\lote_a_cargar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\anomalias.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\anomalias.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tomadelecturas.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\tomadelecturas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\filtrado.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\filtrado.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\teclado.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\teclado.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\camaralayout.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\camaralayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fotos.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\fotos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\anomalias_grid_preview.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\anomalias_grid_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\anomalias_fragment.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\anomalias_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\buscar_medidor.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\buscar_medidor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hexateclado.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\hexateclado.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\layout\\resumen.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\layout\\resumen.xml"
+    }
+]

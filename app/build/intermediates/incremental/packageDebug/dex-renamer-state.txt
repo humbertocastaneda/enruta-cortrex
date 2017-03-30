@@ -1,0 +1,7 @@
+#Tue Mar 28 13:39:20 EDT 2017
+base.0=C\:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_3715a02c5f554f469c264267cc3a887fa9849d08
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_7209982c80fc2a9ba948b5363ab75a2ba9d0979c\\classes.dex
+base.1=C\:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_7209982c80fc2a9ba948b5363ab75a2ba9d0979c
+file.0=C\:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_3715a02c5f554f469c264267cc3a887fa9849d08\\classes.dex

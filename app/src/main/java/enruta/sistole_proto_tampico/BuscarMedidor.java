@@ -1,7 +1,7 @@
 package enruta.sistole_proto_tampico;
 
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 import android.os.Build;
 import android.os.Bundle;
 import android.annotation.SuppressLint;

@@ -1,6 +1,6 @@
 package enruta.sistole_proto_tampico;
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 import android.app.Activity;
 import android.content.Context;
 import android.database.Cursor;

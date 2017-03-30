@@ -3,7 +3,7 @@ package enruta.sistole_proto_tampico;
 import java.io.ByteArrayInputStream;
 import java.util.Vector;
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 
 
 import android.annotation.SuppressLint;

@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Modo">
+        <item>Normal</item>
+        <item>Corrección</item>
+    </string-array>
+    <color name="AliceBlue">#F0F8FF</color>
+    <color name="AntiqueWhite">#FAEBD7</color>
+    <color name="Aqua">#00FFFF</color>
+    <color name="Aquamarine">#7FFFD4</color>
+    <color name="Azure">#F0FFFF</color>
+    <color name="Beige">#F5F5DC</color>
+    <color name="Bisque">#FFE4C4</color>
+    <color name="Black">#000000</color>
+    <color name="BlanchedAlmond">#FFEBCD</color>
+    <color name="Blue">#0000FF</color>
+    <color name="BlueViolet">#8A2BE2</color>
+    <color name="Brown">#A52A2A</color>
+    <color name="BurlyWood">#DEB887</color>
+    <color name="CadetBlue">#5F9EA0</color>
+    <color name="Chartreuse">#7FFF00</color>
+    <color name="Chocolate">#D2691E</color>
+    <color name="Coral">#FF7F50</color>
+    <color name="CornflowerBlue">#6495ED</color>
+    <color name="Cornsilk">#FFF8DC</color>
+    <color name="Crimson">#DC143C</color>
+    <color name="Cyan">#00FFFF</color>
+    <color name="DarkBlue">#00008B</color>
+    <color name="DarkCyan">#008B8B</color>
+    <color name="DarkGoldenrod">#B8860B</color>
+    <color name="DarkGray">#A9A9A9</color>
+    <color name="DarkGreen">#006400</color>
+    <color name="DarkKhaki">#BDB76B</color>
+    <color name="DarkMagenta">#8B008B</color>
+    <color name="DarkOliveGreen">#556B2F</color>
+    <color name="DarkOrange">#FF8C00</color>
+    <color name="DarkOrchid">#9932CC</color>
+    <color name="DarkRed">#8B0000</color>
+    <color name="DarkSalmon">#E9967A</color>
+    <color name="DarkSeaGreen">#8FBC8F</color>
+    <color name="DarkSlateBlue">#483D8B</color>
+    <color name="DarkSlateGray">#2F4F4F</color>
+    <color name="DarkTurquoise">#00CED1</color>
+    <color name="DarkViolet">#9400D3</color>
+    <color name="DeepPink">#FF1493</color>
+    <color name="DeepSkyBlue">#00BFFF</color>
+    <color name="DimGray">#696969</color>
+    <color name="DodgerBlue">#1E90FF</color>
+    <color name="FireBrick">#B22222</color>
+    <color name="FloralWhite">#FFFAF0</color>
+    <color name="ForestGreen">#228B22</color>
+    <color name="Fuchsia">#FF00FF</color>
+    <color name="Gainsboro">#DCDCDC</color>
+    <color name="GhostWhite">#F8F8FF</color>
+    <color name="Gold">#FFD700</color>
+    <color name="Goldenrod">#DAA520</color>
+    <color name="Gray">#808080</color>
+    <color name="Green">#008000</color>
+    <color name="GreenYellow">#ADFF2F</color>
+    <color name="Honeydew">#F0FFF0</color>
+    <color name="HotPink">#FF69B4</color>
+    <color name="IndianRed">#CD5C5C</color>
+    <color name="Indigo">#4B0082</color>
+    <color name="Ivory">#FFFFF0</color>
+    <color name="Khaki">#F0E68C</color>
+    <color name="Lavender">#E6E6FA</color>
+    <color name="LavenderBlush">#FFF0F5</color>
+    <color name="LawnGreen">#7CFC00</color>
+    <color name="LemonChiffon">#FFFACD</color>
+    <color name="LightBlue">#ADD8E6</color>
+    <color name="LightCoral">#F08080</color>
+    <color name="LightCyan">#E0FFFF</color>
+    <color name="LightGoldenrodYellow">#FAFAD2</color>
+    <color name="LightGray">#D3D3D3</color>
+    <color name="LightGreen">#90EE90</color>
+    <color name="LightPink">#FFB6C1</color>
+    <color name="LightSalmon">#FFA07A</color>
+    <color name="LightSeaGreen">#20B2AA</color>
+    <color name="LightSkyBlue">#87CEFA</color>
+    <color name="LightSlateGray">#778899</color>
+    <color name="LightSteelBlue">#B0C4DE</color>
+    <color name="LightYellow">#FFFFE0</color>
+    <color name="Lime">#00FF00</color>
+    <color name="LimeGreen">#32CD32</color>
+    <color name="Linen">#FAF0E6</color>
+    <color name="Magenta">#FF00FF</color>
+    <color name="Maroon">#800000</color>
+    <color name="MediumAquamarine">#66CDAA</color>
+    <color name="MediumBlue">#0000CD</color>
+    <color name="MediumOrchid">#BA55D3</color>
+    <color name="MediumPurple">#9370DB</color>
+    <color name="MediumSeaGreen">#3CB371</color>
+    <color name="MediumSlateBlue">#7B68EE</color>
+    <color name="MediumSpringGreen">#00FA9A</color>
+    <color name="MediumTurquoise">#48D1CC</color>
+    <color name="MediumVioletRed">#C71585</color>
+    <color name="MidnightBlue">#191970</color>
+    <color name="MintCream">#F5FFFA</color>
+    <color name="MistyRose">#FFE4E1</color>
+    <color name="Moccasin">#FFE4B5</color>
+    <color name="NavajoWhite">#FFDEAD</color>
+    <color name="Navy">#000080</color>
+    <color name="OldLace">#FDF5E6</color>
+    <color name="Olive">#808000</color>
+    <color name="OliveDrab">#6B8E23</color>
+    <color name="Orange">#FFA500</color>
+    <color name="OrangeRed">#FF4500</color>
+    <color name="Orchid">#DA70D6</color>
+    <color name="PaleGoldenrod">#EEE8AA</color>
+    <color name="PaleGreen">#98FB98</color>
+    <color name="PaleTurquoise">#AFEEEE</color>
+    <color name="PaleVioletRed">#DB7093</color>
+    <color name="PapayaWhip">#FFEFD5</color>
+    <color name="PeachPuff">#FFDAB9</color>
+    <color name="Peru">#CD853F</color>
+    <color name="Pink">#FFC0CB</color>
+    <color name="Plum">#DDA0DD</color>
+    <color name="PowderBlue">#B0E0E6</color>
+    <color name="Purple">#800080</color>
+    <color name="Red">#FF0000</color>
+    <color name="RosyBrown">#BC8F8F</color>
+    <color name="RoyalBlue">#4169E1</color>
+    <color name="SaddleBrown">#8B4513</color>
+    <color name="Salmon">#FA8072</color>
+    <color name="SandyBrown">#F4A460</color>
+    <color name="SeaGreen">#2E8B57</color>
+    <color name="Seashell">#FFF5EE</color>
+    <color name="Sienna">#A0522D</color>
+    <color name="Silver">#C0C0C0</color>
+    <color name="SkyBlue">#87CEEB</color>
+    <color name="SlateBlue">#6A5ACD</color>
+    <color name="SlateGray">#708090</color>
+    <color name="Snow">#FFFAFA</color>
+    <color name="SpringGreen">#00FF7F</color>
+    <color name="SteelBlue">#4682B4</color>
+    <color name="Tan">#D2B48C</color>
+    <color name="Teal">#008080</color>
+    <color name="Thistle">#D8BFD8</color>
+    <color name="Tomato">#FF6347</color>
+    <color name="Turquoise">#40E0D0</color>
+    <color name="Violet">#EE82EE</color>
+    <color name="Wheat">#F5DEB3</color>
+    <color name="White">#FFFFFF</color>
+    <color name="WhiteSmoke">#F5F5F5</color>
+    <color name="Yellow">#FFFF00</color>
+    <color name="YellowGreen">#9ACD32</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="gray">#808080</color>
+    <color name="green">#008000</color>
+    <color name="lime">#00FF00</color>
+    <color name="maroon">#800000</color>
+    <color name="navy">#000080</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="teal">#008080</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <declare-styleable name="GridLayout"><attr name="orientation">
+
+            
+            <enum name="horizontal" value="0"/>
+            
+            <enum name="vertical" value="1"/>
+        </attr><attr format="integer" name="rowCount"/><attr format="integer" name="columnCount"/><attr format="boolean" name="useDefaultMargins"/><attr name="alignmentMode">
+
+            
+            <enum name="alignBounds" value="0"/>
+            
+            <enum name="alignMargins" value="1"/>
+        </attr><attr format="boolean" name="rowOrderPreserved"/><attr format="boolean" name="columnOrderPreserved"/></declare-styleable>
+    <declare-styleable name="GridLayout_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_margin"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginRight"/><attr name="android:layout_marginBottom"/><attr format="integer" name="layout_row"/><attr format="integer" min="1" name="layout_rowSpan"/><attr format="integer" name="layout_column"/><attr format="integer" min="1" name="layout_columnSpan"/><attr name="layout_gravity">
+
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_gap">16dip</dimen>
+    <integer name="ANOM_LONG_ACTIVA">1</integer>
+    <integer name="ANOM_LONG_ANOM">3</integer>
+    <integer name="ANOM_LONG_AUSENTE">1</integer>
+    <integer name="ANOM_LONG_CAPT">1</integer>
+    <integer name="ANOM_LONG_CONV">1</integer>
+    <integer name="ANOM_LONG_DESC">54</integer>
+    <integer name="ANOM_LONG_FOTO">1</integer>
+    <integer name="ANOM_LONG_LECT">1</integer>
+    <integer name="ANOM_LONG_MENS">1</integer>
+    <integer name="ANOM_LONG_PAIS">1</integer>
+    <integer name="ANOM_LONG_SUBANOM">1</integer>
+    <integer name="ANOM_LONG_TIPO">1</integer>
+    <integer name="ANOM_POSI_ACTIVA">3</integer>
+    <integer name="ANOM_POSI_ANOM">4</integer>
+    <integer name="ANOM_POSI_AUSENTE">10</integer>
+    <integer name="ANOM_POSI_CAPT">12</integer>
+    <integer name="ANOM_POSI_CONV">13</integer>
+    <integer name="ANOM_POSI_DESC">14</integer>
+    <integer name="ANOM_POSI_FOTO">7</integer>
+    <integer name="ANOM_POSI_LECT">8</integer>
+    <integer name="ANOM_POSI_MENS">9</integer>
+    <integer name="ANOM_POSI_PAIS">1</integer>
+    <integer name="ANOM_POSI_SUBANOM">11</integer>
+    <integer name="ANOM_POSI_TIPO">2</integer>
+    <integer name="LONG_CAMPO_CONSUMO">8</integer>
+    <integer name="LONG_CAMPO_ENCABEZADO_CENTRO">4</integer>
+    <integer name="LONG_CAMPO_ENCABEZADO_CPL">4</integer>
+    <integer name="LONG_CAMPO_ENCABEZADO_LOTE">2</integer>
+    <integer name="LONG_CAMPO_LOGIN_LECTURISTA">9</integer>
+    <integer name="LONG_CAMPO_UNICOM">12</integer>
+    <integer name="POS_DATOS_ANOMALIA_INSTALACION">312</integer>
+    <integer name="POS_DATOS_CONSUMO">281</integer>
+    <integer name="POS_DATOS_DONDE_ESTA">443</integer>
+    <integer name="POS_DATOS_LOGIN_LECTURISTA">426</integer>
+    <integer name="POS_DATOS_ORDEN_DE_LECTURA">435</integer>
+    <integer name="POS_DATOS_UNICOM">400</integer>
+    <integer name="USER_LONG_FOTOS">2</integer>
+    <integer name="USER_LONG_LOGIN">20</integer>
+    <integer name="USER_LONG_NOMBRE">100</integer>
+    <integer name="USER_LONG_PASSWORD">20</integer>
+    <integer name="USER_POSI_FOTOS">485</integer>
+    <integer name="USER_POSI_LOGIN">21</integer>
+    <integer name="USER_POSI_NOMBRE">61</integer>
+    <integer name="USER_POSI_PASSWORD">41</integer>
+    <string name="No">No</string>
+    <string name="Salir">Salir</string>
+    <string name="Si">Si</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">CORTREX</string>
+    <string name="borrar">Borrar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="capturar">Capturar</string>
+    <string name="capturayanomalia">Captura y Anomalia</string>
+    <string name="capturayregresa">Captura y Regresa</string>
+    <string name="capturaysiguiente">Captura y Siguiente</string>
+    <string name="continuar">Continuar</string>
+    <string name="de"> "de"</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="guardar">Grabar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="info_CPL">CPL</string>
+    <string name="info_Pais">Pais</string>
+    <string name="info_apagado">Apagado</string>
+    <string name="info_calidad_foto">Calidad de la Foto</string>
+    <string name="info_centro">Unicom</string>
+    <string name="info_encendido">Encendido</string>
+    <string name="info_lote">Lote</string>
+    <string name="info_macBluetooth">MAC Bluetooth</string>
+    <string name="info_macImpresora">MAC Impresora</string>
+    <string name="info_modo">Modo</string>
+    <string name="info_modo_fotos">Fotos</string>
+    <string name="info_modo_fotos_cc">Fotos CC</string>
+    <string name="info_modo_normal">Normal</string>
+    <string name="info_modo_sin_fotos">Sin Fotos</string>
+    <string name="info_numBluetooth">Número de Bluetooth</string>
+    <string name="info_rutaDescarga">Ruta de Descarga</string>
+    <string name="info_servidorGPRS">Servidor GPRS</string>
+    <string name="info_sonidos">Sonido</string>
+    <string name="info_tamanoFoto">Tamaño de la Foto</string>
+    <string name="lbl_admon">Administrador</string>
+    <string name="lbl_area_de_captura">"Cambiar Font Inferior" </string>
+    <string name="lbl_calles">Calles</string>
+    <string name="lbl_camara_otra">Otra Foto</string>
+    <string name="lbl_cambiarUsuario">Cambiar Usuario</string>
+    <string name="lbl_comentarios_ingrese_act_comercial">"Escriba la Actividad Comercial"</string>
+    <string name="lbl_comentarios_ingrese_advertencia">"Escriba la Advertencia al Lector"</string>
+    <string name="lbl_comentarios_ingrese_direccion">"Escriba la Dirección"</string>
+    <string name="lbl_comentarios_ingrese_entrecalles">"Escriba las Entre Calles"</string>
+    <string name="lbl_comentarios_ingrese_esferas">"Escriba la Cantidad de Esferas"</string>
+    <string name="lbl_comentarios_ingrese_medidor_antpos">"Escriba el Medidor Anterior y Posterior"</string>
+    <string name="lbl_comentarios_ingrese_nombre">"Escriba el Nombre"</string>
+    <string name="lbl_comentarios_ingrese_subAnomalia">"Escriba la SubAnomalia"</string>
+    <string name="lbl_comentarios_ingrese_ubicacion">"Escriba la Ubicación"</string>
+    <string name="lbl_configuracion_modo_BT">Bluetooth</string>
+    <string name="lbl_configuracion_modo_GPRS">GPRS</string>
+    <string name="lbl_configuracion_modo_USB">USB</string>
+    <string name="lbl_configuracion_modo_WIFI">WIFI</string>
+    <string name="lbl_configuracion_modo_preguntar">Preguntar Siempre</string>
+    <string name="lbl_configuracion_modo_trans">Modo de transmisión predeterminado</string>
+    <string name="lbl_direccion">Dirección</string>
+    <string name="lbl_entrar">Entrar</string>
+    <string name="lbl_esferas">esferas</string>
+    <string name="lbl_ic">IC</string>
+    <string name="lbl_informacion">"Cambiar Font Superior"</string>
+    <string name="lbl_lecturista">Técnico</string>
+    <string name="lbl_mas_usadas">Más usadas</string>
+    <string name="lbl_medidor">Medidor</string>
+    <string name="lbl_numero">Número</string>
+    <string name="lbl_principal">Principal</string>
+    <string name="lbl_recientes">Recientes</string>
+    <string name="lbl_regresar">Regresar</string>
+    <string name="lbl_resumen">Resumen</string>
+    <string name="lbl_seleccionar">Selecc.</string>
+    <string name="lbl_tdl_indica_anomalia">A:</string>
+    <string name="lbl_tdl_indica_lectura">E:</string>
+    <string name="lbl_tdl_indica_medidor">IC:</string>
+    <string name="lbl_tdl_mover">Mover</string>
+    <string name="lbl_tdl_primera">Primera</string>
+    <string name="lbl_tdl_repetirAnomalia">Repetir Aviso</string>
+    <string name="lbl_tdl_requiere_lectura">La anomalia seleccionada requiere lectura</string>
+    <string name="lbl_tdl_ultima">Ultima</string>
+    <string name="lbl_todas">Catálogo de Anomalias</string>
+    <string name="m_strCambiarFuente">Cambiar Fuente</string>
+    <string name="m_str_acercade">Acerca de</string>
+    <string name="m_str_anterior">Ant.</string>
+    <string name="m_str_ascendente">Ascendente</string>
+    <string name="m_str_borrarAnom">Borrar Anomalia</string>
+    <string name="m_str_borrarRuta">Borrar Ruta</string>
+    <string name="m_str_comentarios">Comentarios</string>
+    <string name="m_str_conLectura">Ejecutadas</string>
+    <string name="m_str_correccion">Corrección</string>
+    <string name="m_str_desHabilita_imp">Deshabilita Impresion</string>
+    <string name="m_str_desendente">Desendente</string>
+    <string name="m_str_exportar">Exportar</string>
+    <string name="m_str_exportarTodo">Exportar Todo</string>
+    <string name="m_str_filtrar">Filtrar</string>
+    <string name="m_str_gpsOn">GPS Encendido</string>
+    <string name="m_str_habilita_Impresion">Habilita Impresion</string>
+    <string name="m_str_importar">Importar</string>
+    <string name="m_str_ingresarMAC">Ingreso Facil de MAC</string>
+    <string name="m_str_ingresarMACIMPR">Ingreso Facil de MAC Impresora</string>
+    <string name="m_str_lecturas">Ordenes</string>
+    <string name="m_str_noregistrados">Nuevo Medidor</string>
+    <string name="m_str_salirCorreccion">Salir de Correccion</string>
+    <string name="m_str_siguiente">Sig.</string>
+    <string name="m_str_sinLectura">Sin Ejecutar</string>
+    <string name="m_str_todo">Todas las Ordenes</string>
+    <string name="msj_anomalias_borrada">La anomalia ha sido borrada</string>
+    <string name="msj_anomalias_error_borrado">Ocurrio un error al borrar, la anomalia no ha sido borrada</string>
+    <string name="msj_anomalias_no_compatible">La anomalia capturada no es compatible</string>
+    <string name="msj_anomalias_no_hay">"No se ha seleccionado alguna anomalia.\nSeleccione una anomalia en el listado de 'TODAS' para comenzar a usar esta pantalla."</string>
+    <string name="msj_anomalias_no_valida">La anomalia capturada no es válida</string>
+    <string name="msj_anomalias_validacion_subavisos">Los subavisos deben tener %s caracteres</string>
+    <string name="msj_buscar">Escriba los ultimos digitos del medidor</string>
+    <string name="msj_buscar_cant_calles_encontrados">Se encontraron %d calle(s)</string>
+    <string name="msj_buscar_cant_med_encontrados">Se encontraron %d medidor(es)</string>
+    <string name="msj_buscar_direccion">Escriba parte de la dirección</string>
+    <string name="msj_buscar_no_medidores">No hay medidores que contengan este número de serie</string>
+    <string name="msj_buscar_no_medidores_calles">No hay medidores con esta calle</string>
+    <string name="msj_buscar_no_medidores_direccion">No hay medidores con esta dirección</string>
+    <string name="msj_buscar_no_medidores_numero">No hay medidores con IC</string>
+    <string name="msj_buscar_numero">Escriba el IC</string>
+    <string name="msj_camara_obtener">"obtener la camara"</string>
+    <string name="msj_camara_volverATomar">"Volver a Tomar"</string>
+    <string name="msj_campo_vacio">El campo %s no puede estar vacio</string>
+    <string name="msj_campo_vacio_no_persnalizable">El campo no puede estar vacio</string>
+    <string formatted="false" name="msj_config_no_disponible"> "No se ha configurado alguna %s.\nConfigure el %s en la pantalla '%s' que se en cuentra en el menu de la pantalla principal."</string>
+    <string formatted="false" name="msj_config_no_guardada"> "No se ha guardado una %s en configuracion."</string>
+    <string name="msj_correccion_ultima">"Ya no hay más ordenes pendientes. Se entrará en 'Modo Corrección'"</string>
+    <string name="msj_cpl_verifique_contrasena">"Verifique la contraseña. "</string>
+    <string name="msj_cpl_verifique_usuario_contrasena">"Verifique la usuario y la contraseña. "</string>
+    <string name="msj_error">"Ocurrio un error %s."</string>
+    <string name="msj_error_descripcion">"Ocurrio un error %s. Mensaje de error:"</string>
+    <string name="msj_fotos">foto(s)</string>
+    <string name="msj_fotos_cantidad_a_tomar">Se requieren %d foto(s)</string>
+    <string name="msj_gps_no_disponible"> "No se pudo localizar el punto GPS, ¿Desea volver a intentarlo?"</string>
+    <string name="msj_imprimir">Se imprimiran los comprobantes de lecturas</string>
+    <string name="msj_lecturas_no_hay_ingresadas">"No hay ordenes ingresadas"</string>
+    <string name="msj_lecturas_no_hay_lecturas_cargadas">"No hay ordenes cargadas"</string>
+    <string name="msj_lecturas_no_hay_mas">"No hay más ordenes"</string>
+    <string name="msj_lecturas_verifique">"Verifique la lectura"</string>
+    <string name="msj_lecturas_verifique_1">"Verifique los datos del medidor"</string>
+    <string name="msj_lotecargar">Escriba el nombre del archivo a cargar.</string>
+    <string name="msj_main_fotos_tomadas">"Fotos Tomadas"</string>
+    <string name="msj_main_lecturas_restantes">"Ordenes Pendientes"</string>
+    <string name="msj_main_medidores_con_anomalias">"Ordenes con Anomalia"</string>
+    <string name="msj_main_medidores_con_lectura">"Ordenes Ejecutadas"</string>
+    <string name="msj_main_no_hay_itinerarios">"No hay ordenes cargadas"</string>
+    <string name="msj_main_no_registrados">"No Registrados"</string>
+    <string name="msj_main_operacion_cancelada">"La operación ha sido cancelada."</string>
+    <string name="msj_main_ruta_borrada">La ruta a sido borrada</string>
+    <string name="msj_main_select_metodo_trans">"Seleccione un metodo de transmisión"</string>
+    <string name="msj_main_total_lecturas">"Ordenes en  la Ruta"</string>
+    <string name="msj_no_registrados">"No hay itinerarios cargados"</string>
+    <string name="msj_no_registrados_num_esferas">"Número de Diales"</string>
+    <string name="msj_no_registrados_num_serie">"Número de Serie"</string>
+    <string name="msj_observaciones">"Observaciones"</string>
+    <string name="msj_str_brincarComentarios">Brincar orden con comentarios</string>
+    <string name="msj_tdl_config_fuente">"Puede empezar a configurar la fuente con las teclas de volumen"</string>
+    <string name="msj_tdl_fin_config_fuente">"Se ha terminado de configurar la fuente"</string>
+    <string name="msj_tdl_fin_de_ruta">"Fin de la Ruta"</string>
+    <string name="msj_tdl_no_mas_lecturas_antes">"No hay más ordenes antes de esta."</string>
+    <string name="msj_tdl_no_mas_lecturas_despues">"No hay más ordenes después de esta."</string>
+    <string name="msj_tdl_no_mas_lecturas_ingr_antes">"No hay más ordenes ingresadas antes de esta."</string>
+    <string name="msj_tdl_no_mas_lecturas_ingr_despues">"No hay más ordenes ingresadas después de esta."</string>
+    <string name="msj_tdl_que_ajustar">"¿Que fuente desea ajustar?"</string>
+    <string name="msj_tdl_ultima">"No se han ejecutado ordenes"</string>
+    <string name="msj_tiene_medidor">¿Tiene Medidor?</string>
+    <string name="msj_trans_bt_not_found">"Bluetooth no disponible."</string>
+    <string name="msj_trans_bt_off">"El bluetooth esta apagado, Enciendalo e intentelo de nuevo."</string>
+    <string name="msj_trans_bytes_sent">"bytes enviados"</string>
+    <string name="msj_trans_cancelada_por_usuario"> "Cancelada por usuario"</string>
+    <string name="msj_trans_connection_problem">"Ocurrio un problema con la red, verifique que cuente con internet y vuelva a intentarlo."</string>
+    <string name="msj_trans_correcta">"La informacion ha sido %s con exito"</string>
+    <string name="msj_trans_error">"Ocurrio un problema al %s.\n Verifique que se encuentre conectado a internet y que el servidor se encuentre disponible. Error:"</string>
+    <string name="msj_trans_file_doesnt_match">"El archivo recibido no fué el esperado."</string>
+    <string name="msj_trans_file_not_found">"No se encontro el archivo especificado"</string>
+    <string name="msj_trans_forzando"> "Forzando lecturas incompletas"</string>
+    <string name="msj_trans_generando"> "Generando datos a exportar"</string>
+    <string name="msj_trans_generando_fotos"> "Generando fotos a exportar"</string>
+    <string name="msj_trans_generando_no_registrados"> Generando No Registrados</string>
+    <string name="msj_trans_no_hay_datos"> "No hay datos que exportar"</string>
+    <string name="msj_trans_recibiendo">"Recibiendo datos."</string>
+    <string name="msj_trans_ruta_no_descargada"> "La ruta no ha sido descargada"</string>
+    <string name="msj_validacion_esferas">El número de esferas no coincide.</string>
+    <string name="msj_validacion_long_mac">"La MAC ingresada no es valida, verifique que sea de 12 digitos"</string>
+    <string name="msj_validacion_no_hay_lectura">No se ha ejecutado una orden</string>
+    <string name="msj_warning_importar">Se remplazaran los datos en memoria con los datos en el servidor, ¿Desea continuar?</string>
+    <string name="msj_warning_pendientes">Hay lecturas pendientes. Confirme que desea hacer un cierre forzado.</string>
+    <string name="msj_warning_pendientes_continuar">Hay lecturas pendientes.¿Desea Continuar?</string>
+    <string name="registros"> registros</string>
+    <string name="reintentar">Reintentar</string>
+    <string name="str_ajustar_fuente_areaCaptura">"Cambiar Font Inferior"</string>
+    <string name="str_ajustar_fuente_informacion">"Cambiar Font Superior"</string>
+    <string name="str_anomalia">Anomalia</string>
+    <string name="str_buscar">Buscar</string>
+    <string name="str_buscar_lowercase">buscar</string>
+    <string name="str_captura">Captura</string>
+    <string name="str_caseta">Caseta</string>
+    <string name="str_ciudad">Ciudad</string>
+    <string name="str_cliente">Cliente</string>
+    <string name="str_comentarios">Comentar</string>
+    <string name="str_configuracion">Configuración</string>
+    <string name="str_contrasena">Contraseña:</string>
+    <string name="str_direccion">Direccion</string>
+    <string name="str_edo">Edo</string>
+    <string name="str_emptyField">El nombre del archivo no puede estar vacio.</string>
+    <string name="str_espere">Espere…</string>
+    <string name="str_exportado"> "exportada"</string>
+    <string name="str_exportar_lowercase">exportar</string>
+    <string name="str_fotos">Fotos</string>
+    <string name="str_importado"> "importada"</string>
+    <string name="str_importar_lowercase">importar</string>
+    <string name="str_intcial">Cial</string>
+    <string name="str_lbl_medidor">Medidor</string>
+    <string name="str_lect">Orden</string>
+    <string name="str_lectura">Ejecutar</string>
+    <string name="str_lecturaAnterior">Ord. Ant</string>
+    <string name="str_lectura_verifique">VERIFIQUE Lectura:</string>
+    <string name="str_login_msj_admon">\nEscriba la contraseña del administrador y presione \'Entrar\'</string>
+    <string name="str_login_msj_lecturista">\nEscriba el usuario y la contraseña, despues presione \'Entrar\' para continuar</string>
+    <string name="str_login_msj_lecturista_contrasena">\nEscriba la contraseña, despues presione \'Entrar\' para continuar</string>
+    <string name="str_login_msj_lecturista_contrasena_arg">\nEscriba los 4 digitos del número de usuario, despues presione \'Entrar\' para continuar</string>
+    <string name="str_m_borrarEstadisticas">Borrar Estadísticas</string>
+    <string name="str_m_borrar_lect">Borrar Orden</string>
+    <string name="str_marca">Marca</string>
+    <string name="str_max">Max</string>
+    <string name="str_medidor">Medidor</string>
+    <string name="str_min">Min</string>
+    <string name="str_modo">Modo</string>
+    <string name="str_modoCorreccion">(MODO DE CORRECCIÓN) Lectura:</string>
+    <string name="str_nis">NIS</string>
+    <string name="str_nosotros">por</string>
+    <string name="str_pregunta_guardar_cambios">¿Esta seguro de avanzar y borrar lo capturado?</string>
+    <string name="str_pregunta_guardar_cambios_anomalia_ausente">Al ingresar una anomalia se borrará la ejecución. ¿Desea continuar?</string>
+    <string name="str_presion">Presión</string>
+    <string name="str_presion_verifique">VERIFIQUE Presión:</string>
+    <string name="str_problemas">Problemas:</string>
+    <string name="str_servidor">Servidor</string>
+    <string name="str_subanomalia">Subanomalia</string>
+    <string name="str_titulo">Sistema de Cortes y Reconexiones</string>
+    <string name="str_titulo2">Desarrollado para</string>
+    <string name="str_usuario">Usuario:</string>
+    <string name="str_warning_borrarRuta">Se borrarán todas las ordenes cargadas ¿Desea Continuar?</string>
+    <string name="title_activity_buscar_medidor">Buscar</string>
+    <string name="title_activity_configuracion">Configuracion</string>
+    <string name="title_activity_filtrado">Filtrado</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_no_registrados">Nuevo Medidor</string>
+    <string name="title_activity_toma_de_lecturas">Ejecucion de Ordenes</string>
+    <string name="version"> versión</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

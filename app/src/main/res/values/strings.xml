@@ -89,7 +89,7 @@
      <string name="str_login_msj_admon">\nEscriba la contraseña del administrador y presione \'Entrar\'</string>
     <string name="str_login_msj_lecturista">\nEscriba el usuario y la contraseña, despues presione \'Entrar\' para continuar</string>
     <string name="str_login_msj_lecturista_contrasena">\nEscriba la contraseña, despues presione \'Entrar\' para continuar</string>
-    <string name="str_login_msj_lecturista_contrasena_arg">\nEscriba el PTN asingado, despues presione \'Entrar\' para continuar</string>
+    <string name="str_login_msj_lecturista_contrasena_arg">\nEscriba los 4 digitos del número de usuario, despues presione \'Entrar\' para continuar</string>
     <string name="str_usuario">Usuario:</string>
     <string name="str_contrasena">Contraseña:</string>
     <string name="lbl_entrar">Entrar</string>

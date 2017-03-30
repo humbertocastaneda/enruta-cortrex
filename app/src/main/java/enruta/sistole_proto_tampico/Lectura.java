@@ -3,7 +3,7 @@ package enruta.sistole_proto_tampico;
 import java.io.UnsupportedEncodingException;
 import java.util.Vector;
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -363,9 +363,6 @@ public class Lectura {
 			}
 			
 		}
-		
-		if(!is_anomalia.equals(""))
-			is_lectura="30";
 
 		cv_params.put("lectura", is_lectura);
 		cv_params.put("consumo", is_consumo);
@@ -699,7 +696,7 @@ public class Lectura {
 //
 //		return ls_cadena;
 		
-		String direccion=is_calle + " #" +numeroDePortal.trim();
+		String direccion=is_calle;
 		
 		return direccion.trim();
 	}

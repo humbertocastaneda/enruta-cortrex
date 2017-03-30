@@ -1,6 +1,6 @@
 package enruta.sistole_proto_tampico;
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 import android.os.Bundle;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -255,11 +255,11 @@ public class CPL extends Activity {
 			return false;
 		}
 		
-//		if (et_contrasena.getText().toString().trim().length()!=10){
-//			Toast.makeText(this, "El numero de usuario debe ser de 10 digitos", Toast.LENGTH_LONG);
-//			return false;
-//		}
-		globales.setUsuario(  et_contrasena.getText().toString().trim());
+		if (et_contrasena.getText().toString().trim().length()!=4){
+			Toast.makeText(this, "El numero de usuario debe ser de 4 digitos", Toast.LENGTH_LONG);
+			return false;
+		}
+		globales.setUsuario("833370" +  et_contrasena.getText().toString().trim());
 		return true;
 //		boolean esValido=false;
 //		
@@ -364,11 +364,7 @@ public class CPL extends Activity {
 		catch(Throwable e){
 			
 		}
-		if (this.et_contrasena.getText().toString().equals(String.valueOf(globales.CLAVE_COMAPA_ZC))||this.et_contrasena.getText().toString().equals(String.valueOf(globales.CLAVE_ENRUTA))
-				||this.et_contrasena.getText().toString().equals(String.valueOf(globales.CLAVE_PRUEBAS2))
-				||this.et_contrasena.getText().toString().equals(String.valueOf(globales.CLAVE_PRUEBAS3))
-				||this.et_contrasena.getText().toString().equals(String.valueOf(globales.CLAVE_MEXICANA))
-				|| this.et_contrasena.getText().toString().equals(String.valueOf(globales.CLAVE_PREPAGO))){
+		if (this.et_contrasena.getText().toString().equals(String.valueOf(globales.CLAVE_COMAPA_ZC))||this.et_contrasena.getText().toString().equals(String.valueOf(globales.CLAVE_ENRUTA))){
 			return true;
 		}
 		

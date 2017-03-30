@@ -4,7 +4,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.util.Vector;
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -878,24 +878,28 @@ public abstract class TomaDeLecturasPadre extends Activity {
 	public void tomarFoto(final int temporal, final Lectura lectura, final int cantidad, final String ls_anomalia) {
 
 		voyATomarFoto=false;
-		if (modo==Input.SIN_FOTOS) {
+		 if (modo==Input.SIN_FOTOS) {
 			 legacyCapturaEnModosSinFoto();
-			 return;
+			 
+			return;
 		}
 		 
-		if (!(globales.tll.getLecturaActual().is_supervisionLectura.equals("1") || globales.tll.getLecturaActual().is_reclamacionLectura.equals("1"))
+		 if (!(globales.tll.getLecturaActual().is_supervisionLectura.equals("1") || globales.tll.getLecturaActual().is_reclamacionLectura.equals("1"))
 				 && modo==Input.FOTOS_CC ){
 			 legacyCapturaEnModosSinFoto();
 			// voyATomarFoto=true;
 			 return;
-		}
+			 
+		 }
 		 
-		//Continuar con la toma
-		if (!globales.tdlg.continuarConLaFoto() && modo!=Input.FOTOS ){
-			return;
-		}
+		 //Continuar con la toma
+		 if (!globales.tdlg.continuarConLaFoto() && modo!=Input.FOTOS ){
+			 return;
+		 }
 		
-		final Intent camara = new Intent(this, CamaraActivity.class);
+		
+		 
+		 final Intent camara = new Intent(this, CamaraActivity.class);
 		
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
 //		builder.setMessage(regreseDe!=ANOMALIA?(globales.is_terminacion.endsWith("1") ? "Obtención de Foto antes de ejecutar la acción": "Obtención de Foto una vez ejecutada la acción"):"Preparese para tomar la foto")

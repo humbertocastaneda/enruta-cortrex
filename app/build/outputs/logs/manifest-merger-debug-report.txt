@@ -1,0 +1,217 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:2:1-96:12
+	package
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:2:11-49
+		INJECTED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:4:5-43
+		INJECTED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:4:44-102
+	android:installLocation
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:4:103-143
+uses-sdk
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:gridlayout-v7:18.0.0] C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\18.0.0\AndroidManifest.xml:18:5-42
+	android:targetSdkVersion
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:8:9-38
+		INJECTED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:7:9-35
+		INJECTED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:11:22-62
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:14:9-57
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:18:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:19:5-74
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:19:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:20:22-76
+uses-permission#android.permission.FLASHLIGHT
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:21:22-66
+application
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:23:5-94:19
+MERGED from [com.android.support:gridlayout-v7:18.0.0] C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\18.0.0\AndroidManifest.xml:19:5-20
+	android:label
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:26:9-41
+	android:allowBackup
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:24:9-35
+	android:icon
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:25:9-45
+	android:largeHeap
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:27:9-33
+	android:theme
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:29:9-40
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:28:9-61
+activity#enruta.sistole_proto_tampico.Main
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:30:9-35:20
+	android:screenOrientation
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:33:13-49
+	android:label
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:32:13-45
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:31:13-61
+activity#enruta.sistole_proto_tampico.TomaDeLecturas
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:36:9-41:20
+	android:screenOrientation
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:39:13-49
+	android:label
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:38:13-68
+	android:windowSoftInputMode
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:40:13-60
+	android:configChanges
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:40:61-133
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:37:13-71
+activity#enruta.sistole_proto_tampico.CamaraActivity
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:42:9-45:20
+	android:screenOrientation
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:44:13-49
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:43:13-71
+activity#enruta.sistole_proto_tampico.trasmisionDatos
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:46:9-49:20
+	android:screenOrientation
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:48:13-49
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:47:13-72
+activity#enruta.sistole_proto_tampico.VerFotos
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:50:9-53:20
+	android:screenOrientation
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:52:13-49
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:51:13-65
+activity#enruta.sistole_proto_tampico.Filtrado
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:54:9-58:20
+	android:screenOrientation
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:57:55-91
+	android:label
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:56:13-60
+	android:windowSoftInputMode
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:57:13-54
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:55:13-65
+activity#enruta.sistole_proto_tampico.Input
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:59:9-63:20
+	android:screenOrientation
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:61:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:62:13-55
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:60:13-62
+activity#enruta.sistole_proto_tampico.PantallaAnomalias
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:64:9-68:20
+	android:screenOrientation
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:66:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:67:13-54
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:65:13-74
+activity#enruta.sistole_proto_tampico.BuscarMedidor
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:69:9-73:20
+	android:screenOrientation
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:72:69-105
+	android:label
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:71:13-66
+	android:windowSoftInputMode
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:72:13-68
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:70:13-70
+activity#enruta.sistole_proto_tampico.Configuracion
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:74:9-77:20
+	android:screenOrientation
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:76:66-107
+	android:label
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:76:13-65
+	android:windowSoftInputMode
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:76:108-159
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:75:13-70
+activity#enruta.sistole_proto_tampico.Informacion
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:78:9-79:20
+	android:screenOrientation
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:78:75-111
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:78:19-74
+activity#enruta.sistole_proto_tampico.NoRegistrados
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:80:9-83:20
+	android:screenOrientation
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:82:67-103
+	android:label
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:82:13-66
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:81:13-70
+activity#enruta.sistole_proto_tampico.trasmisionDatosBt
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:84:9-100
+	android:screenOrientation
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:84:52-88
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:84:19-51
+activity#enruta.sistole_proto_tampico.CPL
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:85:9-91:20
+	android:screenOrientation
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:85:19-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:85:150-189
+	android:configChanges
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:85:75-149
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:85:56-74
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:86:13-90:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:87:17-69
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:87:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:89:17-77
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:89:27-74
+activity#enruta.sistole_proto_tampico.InputCamposGenerico
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:92:9-144
+	android:screenOrientation
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:92:54-90
+	android:windowSoftInputMode
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:92:91-132
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:92:19-53
+activity#enruta.sistole_proto_tampico.PantallaCodigos
+ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:93:9-98
+	android:screenOrientation
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:93:50-86
+	android:name
+		ADDED from C:\Users\Humberto\Documents\Proyectos\enruta-cortrex\app\src\main\AndroidManifest.xml:93:19-49

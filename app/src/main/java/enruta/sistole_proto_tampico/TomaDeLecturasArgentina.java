@@ -3,7 +3,7 @@ package enruta.sistole_proto_tampico;
 import java.util.Hashtable;
 import java.util.Vector;
 
-import enruta.cortrex_mexicana.R;
+import enruta.sistole_proto_tampico.R;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.ContentValues;
@@ -103,9 +103,9 @@ public class TomaDeLecturasArgentina extends TomaDeLecturasGenerica {
 		mj_anomalia_seis=new MensajeEspecial("Seleccione", respuesta, ANOMALIA_SEIS);
 		mj_anomalia_seis.cancelable=false;
 		
-		mj_habitado = new MensajeEspecial("¿Esta habitado?", TomaDeLecturasGenerica.PREGUNTAS_ESTA_HABITADO);
+		mj_habitado = new MensajeEspecial("¿Esta Habitado?", TomaDeLecturasGenerica.PREGUNTAS_ESTA_HABITADO);
 		mj_registro = new MensajeEspecial("¿Tiene Registro?", TomaDeLecturasGenerica.PREGUNTAS_TIENE_REGISTRO);
-		globales.logo=R.drawable.mexicana;
+		globales.logo=R.drawable.logo_comapa;
 		
 		globales.GPS=true;
 		
@@ -151,9 +151,9 @@ public class TomaDeLecturasArgentina extends TomaDeLecturasGenerica {
 		globales.defaultLote="";
 		globales.defaultCPL="CPL025";
 		globales.defaultTransmision="1";
-		globales.defaultRutaDescarga="C:\\cyrMaxigas";
+		globales.defaultRutaDescarga="C:\\";
 //		globales.defaultRutaDescarga="C:\\CortrexPruebas";
-		globales.defaultServidorGPRS="http://mexicana.cortrexweb.com";
+		globales.defaultServidorGPRS="http://tampico.cortrexweb.com";
 		
 		globales.letraPais="A";
 		
@@ -192,137 +192,226 @@ public class TomaDeLecturasArgentina extends TomaDeLecturasGenerica {
 	private void agregarAnomalias() {
 		// TODO Auto-generated method stub
 		//Agregaremos las anomalias
-		openDatabase();
-		ContentValues cv_anom= new ContentValues();
-		
-		db.execSQL("Delete from Anomalia");
-		agregarAnomalia( db, "1", "Medidor Dañado ",1,0 );
-		agregarAnomalia( db, "2", "Carátula Dañada",1,0 );
-		agregarAnomalia( db, "3", "Mica Opaca",1,0 );
-		agregarAnomalia( db, "4", "Medidor Obstruido",1,1 );
-		agregarAnomalia( db, "5", "Cliente Conflictivo ",1,1 );
-		agregarAnomalia( db, "7", "Cliente no permitió realizar proceso",1,1 );
-		agregarAnomalia( db, "8", "Medidor con Reja o Protector ",1,0 );
-		agregarAnomalia( db, "9", "Medidor Empotrado ",1,0 );
-		agregarAnomalia( db, "10", "Número de Medidor Diferente",1,1 );
-		agregarAnomalia( db, "11", "Medidor en interior",1,0 );
-		agregarAnomalia( db, "12", "No se Encontró Acometida",1,1 );
-		agregarAnomalia( db, "14", "Perro Bravo ",1,0 );
-		agregarAnomalia( db, "15", "Zona Conflictiva",0,0 );
-		agregarAnomalia( db, "16", "Falta de Material",0,1 );
-		agregarAnomalia( db, "17", "Guardia no Permitió la Entrada",1,1 );
-		agregarAnomalia( db, "18", "Válvula Dañada ",1,0 );
-		agregarAnomalia( db, "19", "Válvula Enterrada",1,0 );
-		agregarAnomalia( db, "20", "Medidor Enterrado ",1,0 );
-		agregarAnomalia( db, "21", "Sin Válvula",1,0 );
-		agregarAnomalia( db, "22", "Predio sin Medidor",1,0 );
-		agregarAnomalia( db, "23", "Domicilio Inaccesible",1,1 );
-		agregarAnomalia( db, "24", "Posible uso ilícito",1,1 );
-		agregarAnomalia( db, "25", "Medidor Conectado al Revés",1,1 );
-		agregarAnomalia( db, "26", "Pie derecho desoldado",1,1 );
-		agregarAnomalia( db, "27", "Fuga en red interior",1,1 );
-		agregarAnomalia( db, "28", "Fuga en pie derecho",1,1 );
-		agregarAnomalia( db, "29", "Fuga en medidor y conexión",1,1 );
-		agregarAnomalia( db, "30", "Cambio de medidor",1,1 );
-		agregarAnomalia( db, "31", "Ya está cortado",1,1 );
-		agregarAnomalia( db, "32", "Tuercas muy apretadas",1,1 );
-		agregarAnomalia( db, "33", "Cliente se reconectó",1,1 );
-		agregarAnomalia( db, "99", "Texto libre",1,1 );
-		
-		agregarAnomalia( db, "101", "Fuga",1,0,"I" );
-		agregarAnomalia( db, "102", "Falta PH",1,0 ,"I");
-		agregarAnomalia( db, "103", "Pie Derecho",1,0,"I" );
-		agregarAnomalia( db, "104", "Red Interior",1,0 ,"I");
-		agregarAnomalia( db, "105", "Sin Acometida",1,0,"I");
-		agregarAnomalia( db, "106", "Sin Calca",1,0 ,"I");
-		agregarAnomalia( db, "107", "Requisitos",1,0 ,"I");
-		agregarAnomalia( db, "108", "Texto Libre",1,0 ,"I");
-		agregarAnomalia( db, "109", "Serie Duplicada",1,0 ,"I");
-		
-			
-		db.execSQL("Delete from codigosEjecucion");
-		agregarCodigoEjecucion( db, "10", "Cortado");
-//		agregarCodigoEjecucion( db, "11", "Cortado con Diametro De 1/2\"");
-//		agregarCodigoEjecucion( db, "12", "Cortado con Diametro De 3/4\"");
-//		agregarCodigoEjecucion( db, "13", "Cortado con Diametro De 1\"");
-		agregarCodigoEjecucion( db, "20", "Cliente Presentó Pago ");
-//		agregarCodigoEjecucion( db, "21", "Pago en Sucursal ");
-//		agregarCodigoEjecucion( db, "22", "Pago en Cajero Automático ");
-//		agregarCodigoEjecucion( db, "23", "Pago en Medio Externo");
-		agregarCodigoEjecucion( db, "30", "No se Realizó El Corte");
-//		agregarCodigoEjecucion( db, "31", "Impedimiento Temporal ");
-//		agregarCodigoEjecucion( db, "32", "Impedimiento Permanente");
-		agregarCodigoEjecucion( db, "40", "No Localizado ", 0);
-//		agregarCodigoEjecucion( db, "41", "No se Localizó la Colonia en Municipio", 0);
-//		agregarCodigoEjecucion( db, "42", "No se Localizó la Calle en Colonia", 0);
-//		agregarCodigoEjecucion( db, "43", "No se Localizó No. Exterior de la Dirección", 0);
-//		agregarCodigoEjecucion( db, "44", "No se Localizó la Acometida", 0);
-		agregarCodigoEjecucion( db, "50", "No Visitado", 0);
-//		agregarCodigoEjecucion( db, "51", "Fin de Jornada", 0);
-//		agregarCodigoEjecucion( db, "52", "Inclemencias del Clima", 0);
-//		agregarCodigoEjecucion( db, "53", "Falta de Iluminación Solar", 0);
-//		agregarCodigoEjecucion( db, "54", "Instrucción/Orden Superior", 0);
-//		agregarCodigoEjecucion( db, "55", "Accidente/Enfermedad", 0);
-//		agregarCodigoEjecucion( db, "56", "Falla Vehicular", 0);
-		agregarCodigoEjecucion( db, "60", "Reconexión Realizada");
-		agregarCodigoEjecucion( db, "70", "No se Realizó la Reconexión");
-		agregarCodigoEjecucion( db, "80", "Cliente Autoreconectado");
-		agregarCodigoEjecucion( db, "90", "Instalación Realizada");
-		
-		closeDatabase();
+				openDatabase();
+				ContentValues cv_anom= new ContentValues();
+				
+//				Cursor c= db.rawQuery("Select count(*) canti from Anomalia", null);
+//				c.moveToFirst();
+				db.execSQL("Delete from Anomalia");
+				//if (c.getInt(c.getColumnIndex("canti"))==0){
+					
+					agregarAnomalia( db, "1","Corte anterior material");
+					agregarAnomalia( db, "2", "No permitido");
+					agregarAnomalia( db, "3",	"Toma interior");
+					agregarAnomalia( db, "4"	,"No se localizó el domicilio");
+					agregarAnomalia( db, "5",	"Notificado");
+					agregarAnomalia( db, "6"	,"Recibo pagado");
+					agregarAnomalia( db, "7"	,"Obstáculo en predio");
+					agregarAnomalia( db, "8"	,"Toma frágil y en mal estado");
+					agregarAnomalia( db, "9"	,"Baja definitiva");
+					agregarAnomalia( db, "10"	,"Cort. anterior habitado");
+					agregarAnomalia( db, "11"	,"Cort. anterior deshabitado");
+					agregarAnomalia( db, "12"	,"Toma interior habitado");
+					agregarAnomalia( db, "13"	,"Toma interior deshabitado");
+					agregarAnomalia( db, "14"	,"Notificado habitado");
+					agregarAnomalia( db, "15"	,"Notificado deshabitado");
+					agregarAnomalia( db, "16"	,"Pagado");
+					agregarAnomalia( db, "17"	,"Obstáculo habitado");
+					agregarAnomalia( db, "18"	,"Obstáculo deshabitado");
+					agregarAnomalia( db, "19"	,"Solar baldío");
+					agregarAnomalia( db, "20"	,"Toma sin medidor");
+					agregarAnomalia( db, "21"	,"Abono");
+					agregarAnomalia( db, "22"	,"Se entregó pza. al usuario");
+					agregarAnomalia( db, "23"	,"Se autoriza quitar tapón");
+					agregarAnomalia( db, "24"	,"Se autoriza quitar sello");
+					agregarAnomalia( db, "25"	,"Reanudará área técnica");
+					agregarAnomalia( db, "26"	,"Reanudará el taller de medidores");
+					agregarAnomalia( db, "27"	,"No se reanudó por dif. razones");
+					agregarAnomalia( db, "28"	,"Se aut. Abrir válv. de paso");
+					agregarAnomalia( db, "29"	,"El usuario ya tenía puesta la pza.");
+					agregarAnomalia( db, "30"	,"Se encontró abierto el macho de banqueta");
+					agregarAnomalia( db, "31"	,"Se aut. conectarse por robo de medidor");
+					agregarAnomalia( db, "32"	,"Se reanudó por aut. de gcia. Gral.");
+					agregarAnomalia( db, "33"	,"Se reanudó por aut. de gcia. Comercial");
+					agregarAnomalia( db, "34"	,"No se reanudó por obstáculo");
+					agregarAnomalia( db, "36"	,"Se hizo oficio área técnica");
+					agregarAnomalia( db, "37"	,"No tiene material");
+					agregarAnomalia( db, "38"	,"Se reanudó provisional");
+					agregarAnomalia( db, "39"	,"Se reconectó con manguera");
+					agregarAnomalia( db, "40"	,"Se reconectó con material directo");
+					agregarAnomalia( db, "41"	,"Toma hasta la vál. del globo int. corr. al usr");
+					agregarAnomalia( db, "42"	,"Se autoriza a levantar la escuadra");
+					agregarAnomalia( db, "43"	,"Fuga al interior corresponde al usuario");
+					agregarAnomalia( db, "44"	,"Falta material al interior, corresp. al usr");
+					agregarAnomalia( db, "45"	,"Reanudado");
+					
+				//}
+					
+					db.execSQL("Delete from codigosEjecucion");
+					
+					agregarCodigoEjecucion( db, "2", " Aparato desconectado");
+					agregarCodigoEjecucion( db, "3", "Caja distribución desconectada");
+					agregarCodigoEjecucion( db, "4", "Válvula de cierre");
+					agregarCodigoEjecucion( db, "5", "BRIDA DE 2\" Y NIPLE 2\" Y MAT.");
+					agregarCodigoEjecucion( db, "6", "CODO 3/4\" ROSCA INT.");
+					agregarCodigoEjecucion( db, "7", "COPLE DE 1\" A 1/2\" GALVANIZAD");
+					agregarCodigoEjecucion( db, "8", "COPLE DE 3/4\" CON TUBO.");
+					agregarCodigoEjecucion( db, "9", "COPLE GALVANIZADO DE 1/2\".");
+					agregarCodigoEjecucion( db, "10", "COPLE GALVANIZADO DE 3/4.");
+					agregarCodigoEjecucion( db, "11", "COPLE MIXTO CON TUERCA.");
+					agregarCodigoEjecucion( db, "12", "CORTE CON TAPON Y SELLO.");
+					agregarCodigoEjecucion( db, "13", "EXTREMIDAD 1\" CON MATERIAL.");
+					agregarCodigoEjecucion( db, "14", "EXTREMIDAD 1/2 01 CON BUSHING.");
+					agregarCodigoEjecucion( db, "15", "EXTREMIDAD 1/2 01 LARGA Y TAP");
+					agregarCodigoEjecucion( db, "16", "EXTREMIDAD 1/2 01 LARGA.");
+					agregarCodigoEjecucion( db, "17", "EXTREMIDAD 1/2 CON ANILLO.");
+					agregarCodigoEjecucion( db, "18", "EXTREMIDAD 1/2 LARGA..");
+					agregarCodigoEjecucion( db, "19", "EXTREMIDAD 1/2\" CON MATERIAL.");
+					agregarCodigoEjecucion( db, "20", "EXTREMIDAD 1/2\" Y VALVULA DE");
+					agregarCodigoEjecucion( db, "21", "EXTREMIDAD 3/4");
+					agregarCodigoEjecucion( db, "22", "EXTREMIDAD 1/2-01 CON MATERIA");
+					agregarCodigoEjecucion( db, "23", "EXTREMIDAD 1/2-01 Y TAPON.");
+					agregarCodigoEjecucion( db, "24", "EXTREMIDAD 3/4 CON ANILLO.");
+					agregarCodigoEjecucion( db, "25", "EXTREMIDAD 3/4 CON MATERIAL.");
+					agregarCodigoEjecucion( db, "26", "EXTREMIDAD 3/4 CON REDUCCION.C");
+					agregarCodigoEjecucion( db, "27", "EXTREMIDAD 3/4 LARGA.");
+					agregarCodigoEjecucion( db, "28", "EXTREMIDAD 3/4 LARGA CON ANIL");
+					agregarCodigoEjecucion( db, "29", "EXTREMIDAD 3/4 LARGA CON CASQ");
+					agregarCodigoEjecucion( db, "30", "EXTREMIDAD 3/4 LARGA Y TAPON.");
+					agregarCodigoEjecucion( db, "31", "EXTREMIDAD 3/4 Y NIPLE.");
+					agregarCodigoEjecucion( db, "32", "EXTREMIDAD 3/4 Y SE CERRO MB.");
+					agregarCodigoEjecucion( db, "33", "EXTREMIDAD 3/4 Y TAPON.");
+					agregarCodigoEjecucion( db, "34", "EXTREMIDAD CON GRIFO.");
+					agregarCodigoEjecucion( db, "35", "EXTREMIDAD DE 1\".");
+					agregarCodigoEjecucion( db, "36", "EXTREMIDAD DE 1\" Y MATERIAL.");
+					agregarCodigoEjecucion( db, "37", "EXTREMIDAD DE 1/2.");
+					agregarCodigoEjecucion( db, "38", "EXTREMIDAD DE 1/2 -01.");
+					agregarCodigoEjecucion( db, "39", "EXTREMIDAD DE 1/2 Y MATERIAL.");
+					agregarCodigoEjecucion( db, "40", "EXTREMIDAD DE 1/2 Y TAPON.");
+					agregarCodigoEjecucion( db, "41", "EXTREMIDAD DE 1/2 -01.");
+					agregarCodigoEjecucion( db, "42", "EXTREMIDAD DE 2\".");
+					agregarCodigoEjecucion( db, "43", "EXTREMIDAD DE 1/2 Y SELLO.");
+					agregarCodigoEjecucion( db, "44", "LLAVE DE NARIZ CON MATERIAL.");
+					agregarCodigoEjecucion( db, "45", "MATERIAL..");
+					agregarCodigoEjecucion( db, "46", "MEDIDOR Y MATERIAL.");
+					agregarCodigoEjecucion( db, "47", "NIPLE 1/2 Y COPLE CARE 1/2 CO.");
+					agregarCodigoEjecucion( db, "48", "NIPLE 3/4\".");
+					agregarCodigoEjecucion( db, "49", "NIPLE 3/4\" CON 2 ROSCAS CARE.");
+					agregarCodigoEjecucion( db, "50", "NIPLE DE 1/2\" A 3/4\".");
+					agregarCodigoEjecucion( db, "51", "NIPLE DE 3/4\" YCOPLE CARE 3/4");
+					agregarCodigoEjecucion( db, "52", "NIPLE DE 3/4\" YCOPLE CARI 3/4");
+					agregarCodigoEjecucion( db, "53", "NIPLE DE FIERRO.");
+					agregarCodigoEjecucion( db, "54", "NIPLE GALVANIZADO 1/2\".");
+					agregarCodigoEjecucion( db, "55", "PARAL DE COBRE 1/2\" Y 2 CODOS.");
+					agregarCodigoEjecucion( db, "56", "PEDAZO DE MANGUERA..");
+					agregarCodigoEjecucion( db, "57", "PEDAZO DE TUBO DE 1/2\" Y MATE");
+					agregarCodigoEjecucion( db, "58", "PEDAZO DE TUBO DE 3/4\" Y MATE");
+					agregarCodigoEjecucion( db, "59", "PIEZA GALVANIZADA.");
+					agregarCodigoEjecucion( db, "60", "PIEZA HECHIZA CON MATERIAL..");
+					agregarCodigoEjecucion( db, "61", "PIEZA HECHIZA..");
+					agregarCodigoEjecucion( db, "62", "RECONECTADO Y NO SE RETIRO MA");
+					agregarCodigoEjecucion( db, "63", "RECONECTADO Y SE RETIRO MATER");
+					agregarCodigoEjecucion( db, "64", "REDUCCION CAMPANA DE 1\" A 1/2\"");
+					agregarCodigoEjecucion( db, "65", "SE APLASTO PEDAZO DE TUBO..");
+					agregarCodigoEjecucion( db, "66", "SE CERRO LA LINEA GENERAL.");
+					agregarCodigoEjecucion( db, "67", "SE CERRO MB.");
+					agregarCodigoEjecucion( db, "68", "SE CERRO MB Y MATERIAL.");
+					agregarCodigoEjecucion( db, "69", "SE CERRO MB Y SE PUSO TAPON.");
+					agregarCodigoEjecucion( db, "70", "SE CERRO MB Y SE QUITO MEDIDO");
+					agregarCodigoEjecucion( db, "71", "SE CERRO MB Y SE QUITO VASTAG");
+					agregarCodigoEjecucion( db, "72", "SE CERRO VALVULA DE INSERCION");
+					agregarCodigoEjecucion( db, "73", "SE CERRO VAL. INSER. Y RET MAT");
+					agregarCodigoEjecucion( db, "74", "SE CERRO VALVULA GLOBO.");
+					agregarCodigoEjecucion( db, "75", "SE CERRO VALVULA LIMITADORA.");
+					agregarCodigoEjecucion( db, "76", "SE CORTO POR ERROR.");
+					agregarCodigoEjecucion( db, "77", "SE DEGOLLO EL TUBO DE 1/2\".");
+					agregarCodigoEjecucion( db, "78", "SE DOBLO PARAL.");
+					agregarCodigoEjecucion( db, "79", "SE LIMITO A PETICION DEL USUA");
+					agregarCodigoEjecucion( db, "80", "SE PUSO PLANCHA.");
+					agregarCodigoEjecucion( db, "81", "SE PUSO TAPON GALVANIZADO.");
+					agregarCodigoEjecucion( db, "82", "SE QUITO COPLE 1\" A 3/4\" ROSC");
+					agregarCodigoEjecucion( db, "83", "SE RETIRARON TORNILLOS D'FLAN");
+					agregarCodigoEjecucion( db, "84", "SE RETIRO ESCUADRA CON MEDIDO.");
+					agregarCodigoEjecucion( db, "85", "SE RETIRO FLANCH DE 2\".");
+					agregarCodigoEjecucion( db, "86", "SE RETIRO LLAVE NARIZ.");
+					agregarCodigoEjecucion( db, "87", "SE RETIRO MACHO DE BANQUETA.");
+					agregarCodigoEjecucion( db, "88", "SE RETIRO MATERIAL POR BAJA.");
+					agregarCodigoEjecucion( db, "89", "SE RETIRO NIPLE.");
+					agregarCodigoEjecucion( db, "90", "SE RETIRO PEDAZO TUBO DE 1/2.");
+					agregarCodigoEjecucion( db, "91", "SE RETIRO PEDAZO TUBO DE 3/4.");
+					agregarCodigoEjecucion( db, "92", "SE RETIRO VASTAGO.");
+					agregarCodigoEjecucion( db, "93", "SE RETIRO VOLANTE.");
+					agregarCodigoEjecucion( db, "94", "SE TAPO DESCARGA DE DRENAJE.");
+					agregarCodigoEjecucion( db, "95", "SE TAPO VALVULA  DE GLOBO Y M");
+					agregarCodigoEjecucion( db, "96", "SE TAPONEO VALVULA  DE GLOBO.");
+					agregarCodigoEjecucion( db, "97", "SE TAPONEO  QUITO VASTAGO Y M");
+					agregarCodigoEjecucion( db, "98", "SELLO.");
+					agregarCodigoEjecucion( db, "99", "TAPON.");
+					agregarCodigoEjecucion( db, "100", "TUBO DE COBRE 1/2\".");
+					agregarCodigoEjecucion( db, "101", "TUERCA DE PLASTICO1/2.");
+					agregarCodigoEjecucion( db, "102", "VALVULA  LIMITADORA 1/2 S/C.");
+					agregarCodigoEjecucion( db, "103", "VALVULA  LIMITADORA 3/4 C/C.");
+					agregarCodigoEjecucion( db, "104", "VALVULA DE  GLOBO 3/4 Y MATER");
+					agregarCodigoEjecucion( db, "105", "VALVULA DE GLOBO 3/4 CON NIPL");
+					agregarCodigoEjecucion( db, "106", "VALVULA DE GLOBO 3/4 ROSCA IN.");
+					agregarCodigoEjecucion( db, "107", "VALVULA DE GLOBO DE 1/2 CON L");
+					agregarCodigoEjecucion( db, "108", "VALVULA DE GLOBO DE 3/4 CON L");
+					agregarCodigoEjecucion( db, "109", "VALVULA GLOBO 1/2 Y MATERIAL.");
+					agregarCodigoEjecucion( db, "110", "VALVULA LIMTADORA 1/2 C/C..");
+					agregarCodigoEjecucion( db, "111", "TAPÓN Y SELLO");
+					agregarCodigoEjecucion( db, "112", "CIERRE DE LA LINEA GENERAL");
+					agregarCodigoEjecucion( db, "113", "SE TAPONEÓ Y QUITÓ VAST Y MAT");
+					agregarCodigoEjecucion( db, "114", "SE TAPÓ DJE Y RETIRÓ MAT Y MED");
+					agregarCodigoEjecucion( db, "115", "RETIRO DE MATERIAL POR BAJA");
+					agregarCodigoEjecucion( db, "116", "SE LIMITÓ POR ÁREA TÉCNICA");
+					agregarCodigoEjecucion( db, "117", "SE PASÓ ÁREA TÉCNICA P/CORTE");
+					agregarCodigoEjecucion( db, "118", "RETIRO DE MATERIAL DE PVC");
+					agregarCodigoEjecucion( db, "119", "EXT. 1/2 01 DE PLÁSTICO");
+					agregarCodigoEjecucion( db, "120", "SE RETIRÓ PEDAZO MANGUERA");
+					agregarCodigoEjecucion( db, "121", "RETIRO VALV. ESFERA 3/4 Y MAT");
+					agregarCodigoEjecucion( db, "122", "RETIRO VALV. ESFERA 1/2 Y MAT");
+					agregarCodigoEjecucion( db, "123", "EXT. 1/2 01 Y SELLO");
+					agregarCodigoEjecucion( db, "124", "EXT. 3/4 Y SELLO");
+					agregarCodigoEjecucion( db, "125", "CLAUSURA TOMA DE AGUA Y DREN");
+					agregarCodigoEjecucion( db, "200", "SANCIÓN POR PAGO EXTEMPORANEO");
+
+				
+				closeDatabase();
 	}
 	
 	public void agregarAnomalia(SQLiteDatabase db, String anomalia, String desc ){
-		agregarAnomalia( db,  anomalia,  desc,  1 , 1);
+		agregarAnomalia( db,  anomalia,  desc,  1 );
 	}
 	
-	public void agregarAnomalia(SQLiteDatabase db, String anomalia, String desc, int foto, int mensaje ){
+	public void agregarAnomalia(SQLiteDatabase db, String anomalia, String desc, int foto ){
 		this.context=context;
 		Resources res=context.getResources();
 		
 		//openDatabase();
 		ContentValues cv_params=new ContentValues();
+		
 		cv_params.put("desc", desc);
-		cv_params.put("conv", 0);
+		cv_params.put("conv",0);
 		cv_params.put("capt", 0);
-		cv_params.put("subanomalia", ".");
-		cv_params.put("ausente", "4");
-		cv_params.put("mens", mensaje);
+		cv_params.put("subanomalia",".");
+		cv_params.put("ausente","4");
+		cv_params.put("mens",1);
 		cv_params.put("lectura", 0);
-		cv_params.put("anomalia", anomalia);
-		cv_params.put("activa", "A");
-		cv_params.put("tipo", "M");
-		cv_params.put("pais", "M");
-		cv_params.put("foto", foto);
+		cv_params.put("anomalia",anomalia);
+		cv_params.put("activa","A");
+		cv_params.put("tipo","M");
+		cv_params.put("pais","M");
+		cv_params.put("foto",foto);
 		
 		db.insert("Anomalia", null, cv_params);
-	}
-	
-	public void agregarAnomalia(SQLiteDatabase db, String anomalia, String desc, int foto, int mensaje, String tipo ){
-		this.context=context;
-		Resources res=context.getResources();
 		
-		//openDatabase();
-		ContentValues cv_params=new ContentValues();
-		cv_params.put("desc", desc);
-		cv_params.put("conv", 0);
-		cv_params.put("capt", 0);
-		cv_params.put("subanomalia", ".");
-		cv_params.put("ausente", "4");
-		cv_params.put("mens", mensaje);
-		cv_params.put("lectura", 0);
-		cv_params.put("anomalia", anomalia);
-		cv_params.put("activa", "A");
-		cv_params.put("tipo",tipo);
-		cv_params.put("pais", "M");
-		cv_params.put("foto", foto);
-		
-		db.insert("Anomalia", null, cv_params);
 	}
 	
 	public void agregarCodigoEjecucion(SQLiteDatabase db, String anomalia, String desc ){
-		agregarCodigoEjecucion( db,  anomalia,  desc,  1);
+		agregarCodigoEjecucion( db,  anomalia,  desc,  1 );
 	}
+	
+	
 	
 	public void agregarCodigoEjecucion(SQLiteDatabase db, String anomalia, String desc, int foto ){
 		this.context=context;
@@ -330,20 +419,22 @@ public class TomaDeLecturasArgentina extends TomaDeLecturasGenerica {
 		
 		//openDatabase();
 		ContentValues cv_params=new ContentValues();
+		
 		cv_params.put("desc", desc);
-		cv_params.put("conv", 0);
+		cv_params.put("conv",0);
 		cv_params.put("capt", 0);
-		cv_params.put("subanomalia", ".");
-		cv_params.put("ausente", "4");
-		cv_params.put("mens", 0);
+		cv_params.put("subanomalia",".");
+		cv_params.put("ausente","4");
+		cv_params.put("mens",0);
 		cv_params.put("lectura", 0);
-		cv_params.put("anomalia", anomalia);
-		cv_params.put("activa", "A");
-		cv_params.put("tipo", "M");
-		cv_params.put("pais", "M");
-		cv_params.put("foto", foto);
-
+		cv_params.put("anomalia",anomalia);
+		cv_params.put("activa","A");
+		cv_params.put("tipo","M");
+		cv_params.put("pais","M");
+		cv_params.put("foto",foto);
+		
 		db.insert("CodigosEjecucion", null, cv_params);
+		
 	}
 
 	/**
@@ -353,9 +444,13 @@ public class TomaDeLecturasArgentina extends TomaDeLecturasGenerica {
 	 */
 	public String validaLectura(String ls_lectAct) {
 		
+//		if (1==1)
+//			return "Soy Nicaragua";
+		
 		if (ls_lectAct.equals("")) {
 			return NO_SOSPECHOSA +"|"+ "No se ha ingresado algún código";
 		}
+		
 		
 		openDatabase();
 		globales.ignorarContadorControlCalidad=true;
@@ -367,22 +462,9 @@ public class TomaDeLecturasArgentina extends TomaDeLecturasGenerica {
 			return NO_SOSPECHOSA +"|"+ "El código ingresado es invalido";
 		}
 		
-		if (globales.tll.getLecturaActual().is_tipoDeOrden.equals("TO002") && Integer.parseInt(ls_lectAct)>59){//Corte
-			return NO_SOSPECHOSA +"|"+ "El código no corresponde a los cortes";
-		}
-		
-		if (globales.tll.getLecturaActual().is_tipoDeOrden.equals("TO003") && Integer.parseInt(ls_lectAct)<40){//Reconexion
-			return NO_SOSPECHOSA +"|"+ "El código no corresponde a las reconexiones";
-		}
-		
 		closeDatabase();
-
-// CE, 10/04/15, Vamos a hacer una prueba para que no pida foto en No Visitado y No Localizado		
+		
 		globales.fotoForzada=true;
-//		if (Integer.parseInt(ls_lectAct) > 39 && Integer.parseInt(ls_lectAct) < 60)
-//			globales.fotoForzada=false;
-//		else
-//			globales.fotoForzada=true;
 		
 		globales.is_terminacion="_1";
 		globales.ignorarContadorControlCalidad=true;
@@ -540,19 +622,6 @@ public class TomaDeLecturasArgentina extends TomaDeLecturasGenerica {
 		//datos.add(lectura.is_tipoDeOrden);
 			datos.add("Medidor: "+lectura.is_serieMedidor);
 			
-			if (lectura.is_tipoDeOrden.equals("TO002")){
-				datos.add("Tipo de Orden: Corte");
-			}else if (lectura.is_tipoDeOrden.equals("TO003")){
-				datos.add("Tipo de Orden: Reconexión");
-			}else if (lectura.is_tipoDeOrden.equals("TO005")){
-				datos.add("Tipo de Orden: Instalación");
-			}
-				else{
-					datos.add("Tipo de Orden: Otro");
-			}
-			
-			
-			
 		if(!lectura.is_numOrden.equals("0")){
 			datos.add(lectura.is_comollegar1);
 //			if (lectura.verDatos){
@@ -600,11 +669,21 @@ public class TomaDeLecturasArgentina extends TomaDeLecturasGenerica {
 				datos.add(comodin);
 			}
 			
+			datos.add("Giro "+lectura.giro.trim());
+			datos.add("Toma "+lectura.diametro_toma.trim());
+			
 //			if (lectura.verDatos){
 				datos.add(lectura.getNombreCliente().trim());
 //			}
 			
 			
+			
+			datos.add("Ultimo Pago "+lectura.is_ultimo_pago.trim());
+			if (lectura.is_fecha_ultimo_pago.trim().length()>=8){
+				datos.add("Fecha de Pago "+lectura.is_fecha_ultimo_pago.trim().substring(6, 8)+"/"+lectura.is_fecha_ultimo_pago.trim().substring(4, 6)+"/"+ lectura.is_fecha_ultimo_pago.trim().substring(0, 4));
+			}
+			datos.add("Importe Vencido "+lectura.is_vencido.trim());
+			datos.add("Balance "+lectura.is_balance.trim());
 
 		}
 				

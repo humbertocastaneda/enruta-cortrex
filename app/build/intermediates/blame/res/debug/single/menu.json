@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\menu\\bucar_medidor_menu.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\menu\\bucar_medidor_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\menu\\toma_de_lecturas.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\menu\\toma_de_lecturas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\menu\\m_anomalias.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\menu\\m_anomalias.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\menu\\filtrado.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\menu\\filtrado.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\menu\\configuracion.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\menu\\configuracion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\build\\intermediates\\res\\merged\\debug\\menu\\m_input.xml",
+        "source": "C:\\Users\\Humberto\\Documents\\Proyectos\\enruta-cortrex\\app\\src\\main\\res\\menu\\m_input.xml"
+    }
+]
